@@ -12,7 +12,7 @@ scripts.
 **Pre-requisites**
 -  An Android Device running Android 5.0 or greater.
 -  Termux Emulator App  (Modified)
-**NOTE : We have made some changes in Termux appilication so that we can achieve the objective of<br />
+**NOTE** : We have made some changes in Termux appilication so that we can achieve the objective of<br />
 of this appilication. With modified Termux App this app can easily send the data (Scripts code and commands)<br />
 
 **Procedure**
