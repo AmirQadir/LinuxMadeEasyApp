@@ -42,78 +42,78 @@ public class Lists extends AppCompatActivity {
 
     public void button2(View view)
     {
-        sendIntent("ls --color");
+        sendIntent("cd / && ls --color");
     }
 
 
     public void button3(View view)
     {
-        sendIntent("ls -d");
+        sendIntent("cd / && ls -d");
     }
 
 
     public void button4(View view)
     {
-        sendIntent("ls -F");
+        sendIntent("cd / && ls -F");
     }
 
     public void button5(View view)
     {
-        sendIntent("ls -i");
+        sendIntent("cd / && ls -i");
     }
 
 
     public void button6(View view)
     {
-        sendIntent("ls -l");
+        sendIntent("cd / && ls -l");
     }
 
     public void button7(View view)
     {
-        sendIntent("ls -la");
+        sendIntent("cd / && ls -la");
     }
 
     public void button8(View view)
     {
-        sendIntent("ls -lh");
+        sendIntent("cd / && ls -lh");
     }
 
     public void button9(View view)
     {
-        sendIntent("ls -ls");
+        sendIntent("cd / && ls -ls");
     }
 
     public void button10(View view)
     {
-        sendIntent("ls -r");
+        sendIntent("cd / && ls -r");
     }
 
     public void button11(View view)
     {
-        sendIntent("ls -R");
+        sendIntent("cd / && ls -R");
     }
 
 
     public void button12(View view)
     {
-        sendIntent("ls -s");
+        sendIntent("cd / && ls -s");
     }
 
 
     public void button13(View view)
     {
-        sendIntent("ls -S");
+        sendIntent("cd / && ls -S");
     }
 
 
     public void button14(View view)
     {
-        sendIntent("ls -T");
+        sendIntent("cd / && ls -T");
     }
 
     public void button15(View view)
     {
-        sendIntent("ls -X");
+        sendIntent("cd / && ls -X");
     }
 
     void sendIntent(String sharedText){

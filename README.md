@@ -3,7 +3,7 @@
 purpose of this app is to make the Linux environment user friendly and learning on the go.
 # Motivation
 The motivation behind this project is to make Linux more user friendly. Kids or Student who are studying <br /> 
-linux. This help will help them to understand and easy-to-remember commands and they also get to see <br /> some simple shell scripts.
+linux. This app  will help them to understand and easy-to-remember commands and they also get to see <br /> some simple shell scripts.
 
 
 # Installation
