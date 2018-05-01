@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/termux"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/darker_gray"
+        android:text="Termux"
+        android:onClick="termux"
+        />
+
+    <Button
+        android:id="@+id/btnls"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/termux"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:onClick="List"
+        android:text="List files" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnls"
+
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:onClick="Command"
+        android:text="Command" />
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="About us"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/ABOUT"
+        android:onClick="about"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:stretchColumns="1">
+
+        <Button
+            android:id="@+id/helloworld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Print Hello World"
+            android:onClick="Script1"
+            />
+        <Button
+            android:id="@+id/clearcache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear Cache"
+            android:onClick="Script2"
+            />
+        <Button
+            android:id="@+id/checkinternet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Your Internet"
+            android:onClick="Script3"
+            />
+        <Button
+            android:id="@+id/undecided"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undecided"
+            android:onClick="Script4"
+            />
+
+
+    </TableLayout>
+
+
+
+
+</ScrollView>

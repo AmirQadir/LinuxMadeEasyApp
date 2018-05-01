@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        android:stretchColumns="1">
+
+        <Button
+            android:onClick="button1"
+            android:id="@+id/btnlsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list all files including hidden file starting with '.'" />
+        <Button
+            android:onClick="button2"
+            android:id="@+id/btnlscolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="colored list [=always/never/auto]" />
+        <Button
+            android:onClick="button3"
+            android:id="@+id/btnlsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list directories - with ' */'" />
+        <Button
+            android:onClick="button4"
+            android:id="@+id/btnlsF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add one char of */=>@| to enteries" />
+        <Button
+            android:onClick="button5"
+            android:id="@+id/btnlsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list file's inode index number" />
+        <Button
+            android:onClick="button6"
+            android:id="@+id/btnlsl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list with long format - show permissions" />
+        <Button
+            android:onClick="button7"
+            android:id="@+id/btnlsla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list long format including hidden files" />
+        <Button
+            android:onClick="button8"
+            android:id="@+id/btnlslh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list long format with readable file size" />
+        <Button
+            android:onClick="button9"
+            android:id="@+id/btnlsls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list with long format with file size" />
+        <Button
+            android:onClick="button10"
+            android:id="@+id/btnlsr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list in reverse order" />
+        <Button
+            android:onClick="button11"
+            android:id="@+id/btnlsR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list recursively directory tree" />
+        <Button
+            android:onClick="button12"
+            android:id="@+id/btnlss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list file size" />
+        <Button
+            android:onClick="button13"
+            android:id="@+id/btnlsS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sort by file size" />
+        <Button
+            android:onClick="button14"
+            android:id="@+id/btnlst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sort by time and date" />
+        <Button
+            android:onClick="button15"
+            android:id="@+id/btnlsX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sort by extension name" />
+
+    </TableLayout>
+
+
+
+
+</ScrollView>
