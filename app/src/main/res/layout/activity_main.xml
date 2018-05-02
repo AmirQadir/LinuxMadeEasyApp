@@ -37,7 +37,7 @@
         android:layout_centerInParent="true"
         android:background="@android:color/darker_gray"
         android:onClick="Command"
-        android:text="Command" />
+        android:text="Shell Scripts" />
 
 
     <Button
