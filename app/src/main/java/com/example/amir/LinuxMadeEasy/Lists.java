@@ -62,7 +62,6 @@ public class Lists extends AppCompatActivity {
         sendIntent("cd / && ls -i");
     }
 
-
     public void button6(View view)
     {
         sendIntent("cd / && ls -l");
@@ -92,6 +91,7 @@ public class Lists extends AppCompatActivity {
     {
         sendIntent("cd / && ls -R");
     }
+
 
 
     public void button12(View view)
